@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#piano-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  perspective-origin: center;
+  perspective: 1000px;
+}
+
+#piano {
+	/* border: 1px solid red; */
+}
